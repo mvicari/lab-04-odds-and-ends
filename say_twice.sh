@@ -1,4 +1,5 @@
-!#/bin/bash
-cat foo.txt
-echo -------
-cat foo.txt
+echo -n 'Path: '
+read dirpath
+cat "${dirpath}"
+echo "----------"
+cat "${dirpath}"

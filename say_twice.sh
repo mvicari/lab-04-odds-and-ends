@@ -1,4 +1,4 @@
-echo -n 'Path: '
+echo -n 'Filename: '
 read dirpath
 cat "${dirpath}"
 echo "----------"
